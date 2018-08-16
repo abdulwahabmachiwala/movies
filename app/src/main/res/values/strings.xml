@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SlidingTabsUsingViewPager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="theatres">
+        <item>CINEPLEX GRAND HYATT</item>
+        <item>AL HAMARA MALL</item>
+        <item>BURJUMAN</item>
+        <item>CITY CENTRE AJMAN</item>
+        <item>CITY CENTRE DEIRA</item>
+        <item>CITY CENTRE FUJAIRA</item>
+        <item>CITY CENTRE MIRDIF</item>
+        <item>CITY CENTRE SHARJAH</item>
+        <item>CITY CENTRE SHINDHAGA</item>
+        <item>MALL OF THE EMIRATES</item>
+        <item>MARINA MALL - ABU DHABI</item>
+        <item>MERCATO</item>
+        <item>NATION TOWERS - ABU DHABI</item>
+        <item>YAS MALL - ABU DHABI</item>
+    </string-array>
+
+    <string name="whatson">Whats On</string>
+    <string name="movies">Movies</string>
+    <string name="chair">Watch</string>
+    <string name="search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

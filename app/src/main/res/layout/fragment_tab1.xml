@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <ImageButton
+            android:id="@+id/imb1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="0dp"
+            android:src="@drawable/meg" />
+
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/button"
+            android:layout_marginStart="117dp"
+            android:background="@color/colorAccent"
+            android:text="115 min"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Standard"
+            android:layout_below="@+id/imb1"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:background="#ff006a"
+            android:text="10:30"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:layout_below="@+id/txt1"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:background="#ff006a"
+            android:text="12:30"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/button1"
+            android:layout_below="@+id/txt1"
+            tools:ignore="UnknownId" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:background="#ff006a"
+            android:text="15:30"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/button2"
+            android:layout_below="@+id/txt1"
+            tools:ignore="UnknownId"
+            />
+
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="4DX - Virgin Radio"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_below="@+id/button1"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:background="#ff006a"
+            android:text="20:30"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:layout_below="@+id/txt2"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:background="#ff006a"
+            android:text="00:00"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/button4"
+            android:layout_below="@+id/txt2"
+            tools:ignore="UnknownId" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button1"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="70dp"
+            android:text="The Meg"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginTop="96dp"
+            android:background="@color/colorAccent"
+            android:text="English"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button3"
+            android:layout_alignTop="@+id/button"
+            android:text="info >"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imb1"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            app:srcCompat="@drawable/play" />
+
+
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+
+            <ImageButton
+                android:id="@+id/imb2"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:padding="0dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/mi"
+                />
+
+
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Standard"
+                android:layout_below="@+id/imb2"
+                android:layout_marginTop="5dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:background="#ff006a"
+                android:text="07:30"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_below="@+id/txt3"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="#ff006a"
+                android:text="10:30"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/button6"
+                android:layout_below="@+id/txt3"
+                tools:ignore="UnknownId" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="#ff006a"
+                android:text="13:00"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/button7"
+                android:layout_below="@+id/txt3"
+                tools:ignore="UnknownId"
+                />
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="#ff006a"
+                android:text="16:30"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/button8"
+                android:layout_below="@+id/txt3"
+                tools:ignore="UnknownId"/>
+
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="4DX - Virgin Radio"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:layout_below="@+id/button6"/>
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:background="#ff006a"
+                android:text="19:00"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_below="@+id/txt4"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button6"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="70dp"
+                android:text="MI: Fallout"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/button18"
+                android:layout_marginStart="111dp"
+                android:background="@color/colorAccent"
+                android:text="120 min" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_marginTop="98dp"
+                android:background="@color/colorAccent"
+                android:text="English" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imb2"
+                android:layout_alignParentEnd="true"
+                app:srcCompat="@drawable/play" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+
+            <ImageButton
+                android:id="@+id/imb3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:padding="0dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/iw"
+                />
+
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Standard"
+                android:layout_below="@+id/imb3"
+                android:layout_marginTop="5dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:background="#ff006a"
+                android:text="01:30"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_below="@+id/txt5"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="#ff006a"
+                android:text="05:30"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/button11"
+                android:layout_below="@+id/txt5"
+                tools:ignore="UnknownId" />
+
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="#ff006a"
+                android:text="08:30"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/button12"
+                android:layout_below="@+id/txt5"
+                tools:ignore="UnknownId"/>
+
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="4DX - Virgin Radio"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:layout_below="@+id/button11"/>
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:background="#ff006a"
+                android:text="13:30"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_below="@+id/txt6"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="70dp"
+                android:text="Infinity War"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_marginTop="99dp"
+                android:background="@color/colorAccent"
+                android:text="ENGLISH" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/button19"
+                android:layout_marginStart="114dp"
+                android:background="@color/colorAccent"
+                android:text="140 mins" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_marginTop="99dp"
+                android:background="@color/colorAccent"
+                android:text="ENGLISH" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imb3"
+                android:layout_alignParentEnd="true"
+                app:srcCompat="@drawable/play" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+
